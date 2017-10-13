@@ -49,11 +49,8 @@ table {
 
   /**/
 body{
-
-  background-image:url("../Images/geo.jpg");
-
+	background-image: url("../Images/geo.jpg");
 	background-size: cover;
-
 }
 
 li{
@@ -70,9 +67,11 @@ li{
 nav{
 	text-align: center;
 	position: absolute;
+	left:0;
 	top: 50%;
-	left: 25%;
-	  /*how do i actually center center?*/
+	margin-top: -22.5px;
+	width: 100%;
+
 }
 
 a{

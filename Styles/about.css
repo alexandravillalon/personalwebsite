@@ -1,0 +1,110 @@
+h1 {
+  font-family: "Candara", sans-serif;
+  color: mediumaquamarine;
+  font-size: 50px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h3{
+  font-family: "Candara", sans-serif;
+  color: slategrey;
+  font-size: 25px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+}
+h4{
+  text-align: center;
+  font-family: "Candara", sans-serif;
+  text-transform: lowercase;
+  color: slategrey;
+  font-size: 15px;
+}
+body{
+  background-color: mistyrose;
+}
+
+.paragraphs{
+  color: slategrey;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Candara", sans-serif;
+  margin-bottom: 75px;
+}
+
+.wrapper{
+  width: 100%;
+  /*margin: 0 auto;*/
+/*how to fully center?*/
+}
+
+.col1, .col2, .col3{
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  color: mediumaquamarine;
+  font-family: "Candara", sans-serif;
+  /*display: inline-block;*/
+  /*margin: 5px;*/
+  width: 474.666px;
+  padding-top: 5px;
+
+}
+
+.col1 img{
+  width: 200px;
+  height: 323px;
+}
+
+.col2 img{
+  width: 200px;
+  height: 300px;
+  /*why doesn't this height show?*/
+}
+
+.col3 img{
+  width: 300px;
+}
+
+.clearfix{
+  clear: both;
+}
+/*what does this actually do? why doesn't a clear on just the ul work?*/
+
+/*.wrapper2{
+  width: 25%;
+}*/
+
+ul{
+  text-align: left;
+  font-size: 20px;
+  color: slategrey;
+  font-family: "Candara", sans-serif;
+  float: left;
+  width: 45%;
+
+  /*margin-top: 75px;*/
+}
+
+#inspiring{
+  margin-right: 20px;
+  /*why can't I see this?*/
+}
+
+.book{
+  clear: both;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Candara", sans-serif;
+  color: slategrey;
+
+}
+
+.book img{
+  width: 300px;
+}
