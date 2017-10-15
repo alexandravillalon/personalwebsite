@@ -1,0 +1,9 @@
+
+body{
+margin: 0px;
+padding: 0;
+/*background-color: mistyrose;*/
+background-image: url("../Images/team.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}

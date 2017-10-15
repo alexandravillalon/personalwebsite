@@ -1,0 +1,18 @@
+
+body{
+margin: 0px;
+padding: 0;
+/*background-color: mistyrose;*/
+background-image: url("../Images/despacito.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+img{
+  /*float: left;
+  border: 3px solid black;*/
+  /*background-size: ;
+  width: 300px;
+  height: 300px;
+  margin: 10px;*/
+}

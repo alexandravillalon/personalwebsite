@@ -1,0 +1,114 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: mistyrose;
+  margin: 0;
+  padding: 0;
+
+}
+.wrapper{
+
+margin: 0;
+padding:0;
+}
+/*why wouldn't this work?*/
+
+
+
+.grid{
+  border: 7px solid mediumaquamarine;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  float: left;
+  background-size: cover;
+  background-color: yellow;
+  background-position: center;
+
+}
+
+
+#bug {
+  background-image: url("../Images/bug.jpg");
+  background-position: bottom center;
+}
+
+#pr{
+  background-image: url("../Images/pr.jpg");
+}
+
+#erik {
+  background-image: url("../Images/erik.JPG");
+
+}
+
+
+
+#sisters{
+  background-image: url("../Images/sisters.jpg");
+}
+
+#greatwall {
+  background-image: url("../Images/greatwall.JPG");
+}
+
+#spainflag{
+  background-image: url("../Images/spainflag.jpg");
+}
+
+#will {
+  background-image:url("../Images/will.jpg");
+  background-position: top center;
+
+}
+
+#spain{
+  background-image: url("../Images/spain.jpg");
+}
+
+
+#lio{
+  background-image: url("../Images/dinner.jpg");
+
+}
+
+#writingteam {
+  background-image: url("../Images/writingteam.jpg");
+  background-position: center center;
+}
+
+#sandiego{
+  background-image: url("../Images/sandiego.jpg");
+}
+
+#minnesota{
+  background-image: url("../Images/minnesotastatefair.jpg");
+}
+
+@media all and (max-width: 1200px) and (min-width: 890px){
+  body {
+    background-color: lavender;
+  }
+
+  .grid{
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+  }
+
+}
+
+@media all and (max-width: 890px){
+  body{
+    background-color: powderblue;
+  }
+  .grid{
+    width: 600px;
+    height: 600px;
+    margin: 5px;
+  }
+}
