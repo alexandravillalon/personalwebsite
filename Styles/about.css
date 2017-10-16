@@ -108,3 +108,20 @@ ul{
 .book img{
   width: 300px;
 }
+
+nav li {
+  /*color: rgb(255, 77, 77);*/
+  font-size: 15px;
+  /*text-align: center;*/
+	display: inline-block;
+  /*text-decoration: none;*/
+
+/*why does font size work here and in selector a? but not color? */
+
+}
+
+
+  a{
+    text-decoration: none;
+    color: indianred;
+  }

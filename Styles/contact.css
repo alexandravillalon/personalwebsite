@@ -18,6 +18,7 @@ h2{
 
 .main{
   text-align: center;
+  margin-bottom: 250px;
 }
 
 li{
@@ -34,3 +35,24 @@ li{
   color: indianred;
   background-color: mediumaquamarine;
 }
+
+nav{
+  text-align: center;
+}
+
+nav li {
+  /*color: rgb(255, 77, 77);*/
+  font-size: 15px;
+  /*text-align: center;*/
+	display: inline-block;
+  /*text-decoration: none;*/
+
+/*why does font size work here and in selector a? but not color? */
+
+}
+
+
+  a{
+    text-decoration: none;
+    color: indianred;
+  }

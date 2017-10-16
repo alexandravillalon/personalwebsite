@@ -89,6 +89,28 @@ padding:0;
   background-image: url("../Images/minnesotastatefair.jpg");
 }
 
+nav{
+  text-align: center;
+}
+
+nav li {
+  /*color: rgb(255, 77, 77);*/
+  font-size: 15px;
+  /*text-align: center;*/
+	display: inline-block;
+  /*text-decoration: none;*/
+
+/*why does font size work here and in selector a? but not color? */
+
+}
+
+
+  a{
+    text-decoration: none;
+    color: indianred;
+  }
+
+
 @media all and (max-width: 1200px) and (min-width: 890px){
   body {
     background-color: lavender;
