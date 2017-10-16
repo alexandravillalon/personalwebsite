@@ -1,0 +1,36 @@
+body{
+  background-image: url("../Images/geo.jpg");
+  background-size: cover;
+}
+.header{
+  width: 100%;
+  padding: 5px;
+  background-color: mediumaquamarine;
+  margin-bottom: 250px;
+
+}
+h2{
+  font-size: 45px;
+  color: indianred;
+  font-family: "Candara", sans-serif;
+
+}
+
+.main{
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.button{
+  border: 3px solid mediumaquamarine;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 35px;
+  color: indianred;
+  background-color: mediumaquamarine;
+}
